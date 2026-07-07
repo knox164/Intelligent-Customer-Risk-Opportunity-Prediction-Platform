@@ -1,0 +1,15 @@
+============================================================
+DATA VALIDATION REPORT
+============================================================
+
+STATUS: PASSED
+
+ERRORS
+------------------------------
+None
+
+WARNINGS
+------------------------------
+- 34335 duplicate rows found.
+- 243007 missing Customer IDs.
+- 5 negative prices found.
