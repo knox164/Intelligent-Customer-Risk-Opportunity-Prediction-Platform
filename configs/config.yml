@@ -1,0 +1,14 @@
+project:
+  name: customer-risk-platform
+
+database:
+  host: localhost
+  port: 5432
+  database: customer_db
+
+training:
+  random_state: 42
+  test_size: 0.2
+
+models:
+  save_path: models/
