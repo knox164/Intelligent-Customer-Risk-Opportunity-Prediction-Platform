@@ -30,7 +30,7 @@ import numpy as np
 import pandas as pd
 from sklearn.decomposition import PCA
 
-from ....models.reccomendation.segmentation.trainer import run_training_pipeline, scale_features, select_features, train_kmeans
+from .trainer import run_training_pipeline, scale_features, select_features, train_kmeans
 from .utils import PLOT_DIR, SegmentationConfig, get_logger, load_customer_features
 
 logger = get_logger(__name__)

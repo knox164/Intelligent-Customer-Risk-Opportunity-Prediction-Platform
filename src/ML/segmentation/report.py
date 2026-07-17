@@ -19,7 +19,7 @@ from typing import Dict, Optional
 import numpy as np
 import pandas as pd
 
-from ....models.reccomendation.segmentation.trainer import run_training_pipeline, scale_features, select_features, train_kmeans
+from .trainer import run_training_pipeline, scale_features, select_features, train_kmeans
 from .utils import (
     REPORT_MD_PATH,
     SEGMENTS_CSV_PATH,

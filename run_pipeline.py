@@ -16,11 +16,11 @@ Run from the project root:
 import argparse
 from pathlib import Path
 
-from src.Models.segmentation.evaluator import run_evaluation_pipeline
-from src.Models.segmentation.report import run_report_pipeline
-from src.Models.segmentation.trainer import run_training_pipeline
-from src.Models.segmentation.utils import SegmentationConfig, get_logger
-from src.Models.segmentation.visualizer import run_visualization_pipeline
+from src.ML.segmentation.evaluator import run_evaluation_pipeline
+from src.ML.segmentation.report import run_report_pipeline
+from src.ML.segmentation.trainer import run_training_pipeline
+from src.ML.segmentation.utils import SegmentationConfig, get_logger
+from src.ML.segmentation.visualizer import run_visualization_pipeline
 
 logger = get_logger(__name__)
 
